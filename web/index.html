@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus-do</title>
+    <link rel="icon" type="image/png" href="../images/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="stats-container">
+        <div class="details">
+            <h1>Focus-Do</h1>
+            <p id="text">Get started! 🚀 Every step counts.</p>
+            <div id="progressBar">
+                <div id="progress" style="width: 0%;"></div>
+            </div>
+        </div>
+        <div class="stats">
+            <p id="stat">0%</p>
+        </div>
+    </div>
+    <br>
+    <div class="wrapper">
+        <form>
+            <input id="todo-input" type="text" 
+            placeholder="What needs to be done?" autocomplete="off">
+            <button id="add-button">ADD</button>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+</body>
+</html>
